@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.what_we_do_text, .how_we_do_text, .donate_text_link, .proofs_text, .contact_us_text, .about_us_text{
+    font-size: 20px;
+    padding-right: 150px;
+    padding-left: 100px;
+}
+#what_we_do, #how_we_do, #donate, #proofs, #contact_us, #about_us{
+    padding-left: 100px;
+}
